@@ -1,0 +1,32 @@
+{
+  "name": "baby-redux",
+  "version": "1.0.0",
+  "description": "A small and lightweight Redux implementation",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aybadb/baby-redux.git"
+  },
+  "keywords": [
+    "redux",
+    "singleton",
+    "state",
+    "react",
+    "store"
+  ],
+  "author": "Ayoub Adib <ayoub.development@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aybadb/baby-redux/issues"
+  },
+  "homepage": "https://github.com/aybadb/baby-redux#readme",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "html-webpack-plugin": "^2.26.0",
+    "webpack": "^2.2.0"
+  }
+}
