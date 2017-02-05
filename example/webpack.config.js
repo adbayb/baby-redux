@@ -15,8 +15,8 @@ module.exports = {
 	module: {
 		rules: [{
 			test: /\.js[x]?$/,
-			// include: path.resolve(__dirname, "./src"),
 			// TODO: es5 for baby-redux
+			// include: path.resolve(__dirname, "./src"),
 			exclude: /node_modules\/(?!baby-redux)/,
 			use: "babel-loader"
 		}]
