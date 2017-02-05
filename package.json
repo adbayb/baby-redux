@@ -2,8 +2,7 @@
   "name": "baby-redux",
   "version": "1.0.0",
   "description": "A small and lightweight Redux implementation",
-  "main": "dist/index.js",
-  "module": "lib/index.js",
+  "main": "dist/baby-redux.js",
   "scripts": {
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",

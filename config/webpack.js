@@ -5,7 +5,7 @@ module.exports = {
 	target: "web",
 	entry: path.resolve(__dirname, "../lib/index.js"),
 	output: {
-		filename: "index.js",
+		filename: "baby-redux.js",
 		path: path.resolve(__dirname, "../dist"),
 		// cf. https://webpack.js.org/guides/author-libraries/
 		// Ci-dessous on definit le mode d'import de notre librairie
@@ -14,6 +14,7 @@ module.exports = {
 		// dans notre package.json (webpack resoudra alors "module" lorsqu'on importera
 		// en mode ES2015 au lieu de resoudre "main" => main sera alors utilise pour importer du code ES5
 		// en mode script window ou commonjs (cf. https://github.com/webpack/webpack/issues/1979).
+		// Si "module" n'est pas specifie, webpack resoudra les imports l'entry point main (en mode ES5 commonjs (require)).
 
 		// library permet d'affecter le nom lors du require...
 		// On peut ne pas le specifier de telle sorte que les exports nommes (ie non default)

@@ -2,7 +2,7 @@
   "name": "baby-redux-example",
   "private": true,
   "scripts": {
-    "web": "webpack -p"
+    "build": "webpack -p"
   },
   "author": "Ayoub Adib <ayoub.development@gmail.com>",
   "license": "MIT",
