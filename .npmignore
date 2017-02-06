@@ -1,0 +1,6 @@
+config
+example
+lib
+.eslintrc
+.gitignore
+.npmignore
